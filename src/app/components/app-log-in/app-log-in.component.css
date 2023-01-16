@@ -1,0 +1,29 @@
+
+
+#ilustrar{
+    height: 100vh;
+}
+
+#logo{
+    height: 12vh;
+    padding: 0;
+    margin: 0;
+}
+
+#log-box{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    max-width: 40%;
+    margin-top: 5vh;
+}
+
+/*
+ * Dispositivos como Ipad.
+ */
+
+@media (max-width: 980px) {
+    #log-box{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+body{
+    background: #f0f0f0 !important;
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden !important;
+}
+
+.divider{
+    height: 0.3rem !important;
+    max-width: 3rem !important;
+    margin: 1.5rem auto;
+    background-color: #21586e;
+    opacity: 1;
+}
+
+.divider-light{
+    height: 0.3rem !important;
+    max-width: 3rem !important;
+    margin: 1.5rem auto;
+    background-color: #8ca9b5;
+    opacity: 1;
+}
+
+.divider-text, .divider-white{
+    height: 0.1rem !important;
+    max-width: 19rem !important;
+    margin: 2rem auto;
+    opacity: 1;
+}
+
+.divider-text{
+    background-color: #a0a0a0;
+}
+
+.divider-white{
+    background-color: #ffffff;
+}
